@@ -5,7 +5,7 @@ Currently this package have only one function that can generate metadata of a da
 
 ### installation:
 
-Currently this package is only available on github. To install package from the github you must have *devtools* package that provide functions to install packages from the gitub.
+For installing a package from the github you need to have *devtools* package that provide functions to install packages from the gitub.
 
 ```r
 library(devtools)
@@ -29,10 +29,10 @@ metadata::generateMeta(iris)
 
 ### features:
 
-As of now it generates finds out *NA* counts, blanks, unique for all the columns and for numeric columns it also gives 
+it find out *NA counts, blanks, unique* for all the columns and for numeric columns it also gives 
 *min, max, range, median,mean, mode*
 
-*generateMeta* function returns a dataframe so you can also store it and use it. Below peace also gives the same output.
+*generateMeta* function returns a dataframe that makes it easy to work with large dataframes. you can also store it and perform several operations like *looking at columns which have NA values*. Below peace also gives the same output.
 
 ### usage:
 ```r
